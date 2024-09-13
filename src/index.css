@@ -1,0 +1,27 @@
+
+@import "keep-react/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+.gradient{
+  background-color:#ffbd99;
+  background-image:
+  radial-gradient(at 24% 23%, hsla(347,89%,68%,1) 0px, transparent 50%),
+  radial-gradient(at 17% 10%, hsla(211,79%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 50% 79%, hsla(31,87%,71%,1) 0px, transparent 50%),
+  radial-gradient(at 58% 51%, hsla(37,64%,78%,1) 0px, transparent 50%),
+  radial-gradient(at 65% 92%, hsla(12,78%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 5% 26%, hsla(94,83%,67%,1) 0px, transparent 50%),
+  radial-gradient(at 18% 97%, hsla(178,88%,71%,1) 0px, transparent 50%);
+}
+
+.morphism{
+background: rgba(255, 255, 255, 0.18);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
